@@ -8,7 +8,6 @@ word = "Colegio"
 # for letter in word:
 #     print(letter)
 
-# # todo range with floats
 # for i in range(100, 89, -2):
 #     print(i)
 
@@ -30,11 +29,18 @@ word = "Colegio"
 
 # Create a function CountVowels(new_string)
 # return the number of vowels in the string
-def CountVowels(new_string):
-    out = 0
-    for letter in new_string:
-        if letter in "aeiou":
-            out += 1
-    return out
+# def CountVowels(new_string):
+#     out = 0
+#     for letter in new_string:
+#         if letter in "aeiou":
+#             out += 1
+#     return out
+#
+# print(CountVowels("aeiou"))
 
-print(CountVowels("aeiou"))
+word = "hello"
+
+for i in range(len(word)):
+    for j in range(i+1, len(word)):
+        if word[i] == word[j]:
+            print(f'Found duplicate i:{word[i]} j:{word[j]}')
