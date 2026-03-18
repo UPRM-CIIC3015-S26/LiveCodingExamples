@@ -10,3 +10,4 @@ def replace_negatives(l, replacement):
 print(replace_negatives([1,2,-3,4,-5], 0)) # [1,2,0,4,0]
 print(replace_negatives([1,2,3,4,5], 0))   # [1,2,3,4,5]
 print(replace_negatives([], 0))            # []
+
