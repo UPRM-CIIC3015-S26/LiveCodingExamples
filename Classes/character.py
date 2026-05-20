@@ -35,7 +35,7 @@ alanis1.strength += 10
 alanis3.strength += 20
 
 print(alanis1 is alanis3) # False
-print(alanis1 == alanis3) # True
+print(alanis1 == alanis3 and alanis3 == alanis2) # True
 
 bienve.introduce()
 characters = [alanis1, bienve]
